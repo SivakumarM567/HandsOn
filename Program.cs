@@ -10,7 +10,7 @@ namespace FileHandling2
     {
         static void Main(string[] args)
         {
-            NetworkLog fileHandling = new NetworkLog();
+            FileHandling1 fileHandling = new FileHandling1();
             fileHandling.ReadFile();
             Console.Read();
         }
